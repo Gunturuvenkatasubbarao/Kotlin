@@ -1,0 +1,14 @@
+//Write a program to input the quantity and unit price of a sold item. Calculate bill amount. Allow 15% of discount on bill amount. Find the final bill amount. Display discount and final bill amount.
+
+fun main()
+{
+	println("Enter the Product Price: ")
+	var price = Integer.valueOf(readLine())
+	println("Enter the Product Quantity")
+	var quant = Integer.valueOf(readLine())
+	var bill = quant*price
+	println("The Bill Amount is ${bill}")
+	var dis = bill-(bill*0.15)
+	println("After Allowing 15% Dicount The Bill Amount is: ${dis} ")
+	
+}
