@@ -14,6 +14,8 @@ class MyRecycler : AppCompatActivity() {
         mrv.layoutManager= LinearLayoutManager(this, RecyclerView.VERTICAL,false)
         var mydata=ArrayList<Data>()
         mydata.add(Data("Subbu","gvs@gmail.com","9876543210"))
+        mydata.add(Data("kiran","kiran@gmail.com","9123456780"))
+        mydata.add(Data("Mahesh","mgh@gmail.com","6987541230"))
 
 
         mrv.adapter= MyAdapter(mydata)
