@@ -15,20 +15,20 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //Numbers
-        num0.setOnClickListener { appendVal("0", false) }
-        num1.setOnClickListener { appendVal("1", false) }
-        num2.setOnClickListener { appendVal("2", false) }
-        num3.setOnClickListener { appendVal("3", false) }
-        num4.setOnClickListener { appendVal("4", false) }
-        num5.setOnClickListener { appendVal("5", false) }
-        num6.setOnClickListener { appendVal("6", false) }
-        num7.setOnClickListener { appendVal("7", false) }
-        num8.setOnClickListener { appendVal("8", false) }
-        num9.setOnClickListener { appendVal("9", false) }
-        numDot.setOnClickListener { appendVal(".", false) }
+        Zero.setOnClickListener { appendVal("0", false) }
+        One.setOnClickListener { appendVal("1", false) }
+        Two.setOnClickListener { appendVal("2", false) }
+        Three.setOnClickListener { appendVal("3", false) }
+        Four.setOnClickListener { appendVal("4", false) }
+        Five.setOnClickListener { appendVal("5", false) }
+        Six.setOnClickListener { appendVal("6", false) }
+        Seven.setOnClickListener { appendVal("7", false) }
+        Eight.setOnClickListener { appendVal("8", false) }
+        Nine.setOnClickListener { appendVal("9", false) }
+        Dot.setOnClickListener { appendVal(".", false) }
         //Operators
         clear.setOnClickListener { appendVal("", true) }
-        startBracket.setOnClickListener { appendVal(" ( ", false) }
+        openBracket.setOnClickListener { appendVal(" ( ", false) }
         closeBracket.setOnClickListener { appendVal(" ) ", false) }
         actionDivide.setOnClickListener { appendVal(" / ", false) }
         actionMultiply.setOnClickListener { appendVal(" * ", false) }
